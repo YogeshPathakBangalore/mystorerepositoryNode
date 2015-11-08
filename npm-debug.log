@@ -1,0 +1,913 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'time' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'time', null ]
+6 verbose cache add spec time
+7 silly cache add parsed spec { raw: 'time',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'time',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed time@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'time', range: '*', hasData: false }
+12 silly mapToRegistry name time
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/time
+16 verbose addNameRange registry:https://registry.npmjs.org/time not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/time
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 3:53:12 PM
+20 verbose request id e26afcc25417ebdb
+21 http request GET https://registry.npmjs.org/time
+22 http 200 https://registry.npmjs.org/time
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"BJ2FLC52VWBHSDWPKJHXLL3A6"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '42236',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sat, 10 Oct 2015 10:23:14 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin6922-SIN',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1444472593.778525,VS0,VE1014',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving time to C:\Users\Yogi\AppData\Roaming\npm-cache\registry.npmjs.org\time\.cache.json
+25 silly addNameRange number 2 { name: 'time', range: '*', hasData: true }
+26 silly addNameRange versions [ 'time',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.6.3',
+26 silly addNameRange     '0.6.4',
+26 silly addNameRange     '0.6.5',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '0.11.0',
+26 silly addNameRange     '0.11.1',
+26 silly addNameRange     '0.11.2',
+26 silly addNameRange     '0.11.3',
+26 silly addNameRange     '0.11.4' ] ]
+27 verbose addNamed time@0.11.4
+28 silly addNamed semver.valid 0.11.4
+29 silly addNamed semver.validRange 0.11.4
+30 silly mapToRegistry name time
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/time
+34 verbose addRemoteTarball https://registry.npmjs.org/time/-/time-0.11.4.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/time/-/time-0.11.4.tgz',
+35 verbose addRemoteTarball   'ec3c8947d7fa488f3b1978b8110a68186f5d340f' ]
+36 info retry fetch attempt 1 at 3:53:15 PM
+37 info attempt registry request try #1 at 3:53:15 PM
+38 http fetch GET https://registry.npmjs.org/time/-/time-0.11.4.tgz
+39 http fetch 200 https://registry.npmjs.org/time/-/time-0.11.4.tgz
+40 silly fetchAndShaCheck shasum ec3c8947d7fa488f3b1978b8110a68186f5d340f
+41 verbose addTmpTarball C:\Windows\TEMP\npm-4816-9eb08bcd\registry.npmjs.org\time\-\time-0.11.4.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for time@0.11.4
+43 silly cache afterAdd time@0.11.4
+44 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\time\0.11.4\package\package.json not in flight; writing
+45 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\time\0.11.4\package\package.json written
+46 silly install resolved [ { name: 'time',
+46 silly install resolved     description: '"time.h" bindings for Node.js',
+46 silly install resolved     keywords:
+46 silly install resolved      [ 'date',
+46 silly install resolved        'time',
+46 silly install resolved        'time.h',
+46 silly install resolved        'timezone',
+46 silly install resolved        'setTimezone',
+46 silly install resolved        'getTimezone' ],
+46 silly install resolved     version: '0.11.4',
+46 silly install resolved     repository:
+46 silly install resolved      { type: 'git',
+46 silly install resolved        url: 'git://github.com/TooTallNate/node-time.git' },
+46 silly install resolved     author:
+46 silly install resolved      { name: 'Nathan Rajlich',
+46 silly install resolved        email: 'nathan@tootallnate.net',
+46 silly install resolved        url: 'http://tootallnate.net' },
+46 silly install resolved     license: 'MIT',
+46 silly install resolved     contributors: [ [Object] ],
+46 silly install resolved     main: './index.js',
+46 silly install resolved     scripts: { test: 'mocha --reporter spec', install: 'node-gyp rebuild' },
+46 silly install resolved     dependencies: { bindings: '~1.2.0', debug: '2', nan: '2' },
+46 silly install resolved     devDependencies: { mocha: '*' },
+46 silly install resolved     gypfile: true,
+46 silly install resolved     gitHead: '3faced83e4933ffa45f8aacb19bee74b1811022c',
+46 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-time/issues' },
+46 silly install resolved     homepage: 'https://github.com/TooTallNate/node-time#readme',
+46 silly install resolved     _id: 'time@0.11.4',
+46 silly install resolved     _shasum: 'ec3c8947d7fa488f3b1978b8110a68186f5d340f',
+46 silly install resolved     _from: 'time@*',
+46 silly install resolved     _npmVersion: '2.11.2',
+46 silly install resolved     _nodeVersion: '0.12.6',
+46 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+46 silly install resolved     maintainers: [ [Object], [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'ec3c8947d7fa488f3b1978b8110a68186f5d340f',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/time/-/time-0.11.4.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/time/-/time-0.11.4.tgz' } ]
+47 info install time@0.11.4 into C:\node_modules\contactApp
+48 info installOne time@0.11.4
+49 verbose installOne of time to C:\node_modules\contactApp not in flight; installing
+50 verbose lock using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\time-87fc73af97f4a0db.lock for C:\node_modules\contactApp\node_modules\time
+51 silly install write writing time 0.11.4 to C:\node_modules\contactApp\node_modules\time
+52 silly cache addNamed cb time@0.11.4
+53 verbose unbuild node_modules\time
+54 silly gentlyRm C:\node_modules\contactApp\node_modules\time is being purged from base C:\node_modules\contactApp
+55 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time
+56 verbose tar unpack C:\Users\Yogi\AppData\Roaming\npm-cache\time\0.11.4\package.tgz
+57 verbose tar unpacking to C:\node_modules\contactApp\node_modules\time
+58 silly gentlyRm C:\node_modules\contactApp\node_modules\time is being purged
+59 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time
+60 silly gunzTarPerm modes [ '777', '666' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+67 silly gunzTarPerm extractEntry LICENSE
+68 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+69 silly gunzTarPerm extractEntry index.js
+70 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+71 silly gunzTarPerm extractEntry binding.gyp
+72 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+73 silly gunzTarPerm extractEntry .jshintrc
+74 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+75 silly gunzTarPerm extractEntry .travis.yml
+76 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+77 silly gunzTarPerm extractEntry History.md
+78 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+79 silly gunzTarPerm extractEntry src/time.cc
+80 silly gunzTarPerm modified mode [ 'src/time.cc', 420, 438 ]
+81 silly gunzTarPerm extractEntry test/date.js
+82 silly gunzTarPerm modified mode [ 'test/date.js', 420, 438 ]
+83 silly gunzTarPerm extractEntry test/exports.js
+84 silly gunzTarPerm modified mode [ 'test/exports.js', 420, 438 ]
+85 silly gunzTarPerm extractEntry test/tzset.js
+86 silly gunzTarPerm modified mode [ 'test/tzset.js', 420, 438 ]
+87 info preinstall time@0.11.4
+88 silly prepareForInstallMany adding bindings@~1.2.0 from time dependencies
+89 silly prepareForInstallMany adding debug@2 from time dependencies
+90 silly prepareForInstallMany adding nan@2 from time dependencies
+91 silly cache add args [ 'debug@2', null ]
+92 verbose cache add spec debug@2
+93 silly cache add parsed spec { raw: 'debug@2',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'debug',
+93 silly cache add   rawSpec: '2',
+93 silly cache add   spec: '>=2.0.0 <3.0.0',
+93 silly cache add   type: 'range' }
+94 verbose addNamed debug@>=2.0.0 <3.0.0
+95 silly addNamed semver.valid null
+96 silly addNamed semver.validRange >=2.0.0 <3.0.0
+97 silly addNameRange { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: false }
+98 silly mapToRegistry name debug
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/debug
+102 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+103 silly cache add args [ 'nan@2', null ]
+104 verbose cache add spec nan@2
+105 silly cache add parsed spec { raw: 'nan@2',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'nan',
+105 silly cache add   rawSpec: '2',
+105 silly cache add   spec: '>=2.0.0 <3.0.0',
+105 silly cache add   type: 'range' }
+106 verbose addNamed nan@>=2.0.0 <3.0.0
+107 silly addNamed semver.valid null
+108 silly addNamed semver.validRange >=2.0.0 <3.0.0
+109 silly addNameRange { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: false }
+110 silly mapToRegistry name nan
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/nan
+114 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+115 silly cache add args [ 'bindings@~1.2.0', null ]
+116 verbose cache add spec bindings@~1.2.0
+117 silly cache add parsed spec { raw: 'bindings@~1.2.0',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'bindings',
+117 silly cache add   rawSpec: '~1.2.0',
+117 silly cache add   spec: '>=1.2.0 <1.3.0',
+117 silly cache add   type: 'range' }
+118 verbose addNamed bindings@>=1.2.0 <1.3.0
+119 silly addNamed semver.valid null
+120 silly addNamed semver.validRange >=1.2.0 <1.3.0
+121 silly addNameRange { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: false }
+122 silly mapToRegistry name bindings
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/bindings
+126 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+127 verbose request uri https://registry.npmjs.org/bindings
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 3:53:17 PM
+130 verbose etag "D2XXGHY5EXANSKX6Q9FJABZ7W"
+131 http request GET https://registry.npmjs.org/bindings
+132 verbose request uri https://registry.npmjs.org/debug
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 3:53:17 PM
+135 verbose etag "9KQN9D5MMUUBKB1RP49Y2XP8G"
+136 http request GET https://registry.npmjs.org/debug
+137 verbose request uri https://registry.npmjs.org/nan
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 3:53:17 PM
+140 verbose etag "1L4RU1AM541YSVP1YQFXG1Y1J"
+141 http request GET https://registry.npmjs.org/nan
+142 http 200 https://registry.npmjs.org/debug
+143 silly get cb [ 200,
+143 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 silly get     etag: '"ALFMV9Z61M3B4F473JIALUP7O"',
+143 silly get     'content-type': 'application/json',
+143 silly get     'cache-control': 'max-age=60',
+143 silly get     'content-length': '35515',
+143 silly get     'accept-ranges': 'bytes',
+143 silly get     date: 'Sat, 10 Oct 2015 10:23:17 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     age: '11',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-sin6924-SIN',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '2',
+143 silly get     'x-timer': 'S1444472597.832851,VS0,VE0',
+143 silly get     vary: 'Accept' } ]
+144 verbose get saving debug to C:\Users\Yogi\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+145 silly addNameRange number 2 { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: true }
+146 silly addNameRange versions [ 'debug',
+146 silly addNameRange   [ '0.0.1',
+146 silly addNameRange     '0.1.0',
+146 silly addNameRange     '0.2.0',
+146 silly addNameRange     '0.3.0',
+146 silly addNameRange     '0.4.0',
+146 silly addNameRange     '0.4.1',
+146 silly addNameRange     '0.5.0',
+146 silly addNameRange     '0.6.0',
+146 silly addNameRange     '0.7.0',
+146 silly addNameRange     '0.7.1',
+146 silly addNameRange     '0.7.2',
+146 silly addNameRange     '0.7.3',
+146 silly addNameRange     '0.7.4',
+146 silly addNameRange     '0.8.0',
+146 silly addNameRange     '0.8.1',
+146 silly addNameRange     '1.0.0',
+146 silly addNameRange     '1.0.1',
+146 silly addNameRange     '1.0.2',
+146 silly addNameRange     '1.0.3',
+146 silly addNameRange     '1.0.4',
+146 silly addNameRange     '2.0.0',
+146 silly addNameRange     '2.1.0',
+146 silly addNameRange     '2.1.1',
+146 silly addNameRange     '2.1.2',
+146 silly addNameRange     '2.1.3',
+146 silly addNameRange     '2.2.0' ] ]
+147 verbose addNamed debug@2.2.0
+148 silly addNamed semver.valid 2.2.0
+149 silly addNamed semver.validRange 2.2.0
+150 silly cache afterAdd debug@2.2.0
+151 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json not in flight; writing
+152 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json written
+153 http 200 https://registry.npmjs.org/bindings
+154 silly get cb [ 200,
+154 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly get     etag: '"547Q3C60W4DUGPOZ65YOO6930"',
+154 silly get     'content-type': 'application/json',
+154 silly get     'cache-control': 'max-age=60',
+154 silly get     'content-length': '18018',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Sat, 10 Oct 2015 10:23:18 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '0',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-sin6923-SIN',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1444472597.816167,VS0,VE917',
+154 silly get     vary: 'Accept' } ]
+155 verbose get saving bindings to C:\Users\Yogi\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+156 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: true }
+157 silly addNameRange versions [ 'bindings',
+157 silly addNameRange   [ '0.0.1',
+157 silly addNameRange     '0.1.0',
+157 silly addNameRange     '0.1.1',
+157 silly addNameRange     '0.2.0',
+157 silly addNameRange     '0.2.1',
+157 silly addNameRange     '0.2.2',
+157 silly addNameRange     '0.2.3',
+157 silly addNameRange     '0.2.4',
+157 silly addNameRange     '0.3.0',
+157 silly addNameRange     '0.4.0',
+157 silly addNameRange     '1.0.0',
+157 silly addNameRange     '1.1.0',
+157 silly addNameRange     '1.1.1',
+157 silly addNameRange     '1.2.0',
+157 silly addNameRange     '1.2.1' ] ]
+158 verbose addNamed bindings@1.2.1
+159 silly addNamed semver.valid 1.2.1
+160 silly addNamed semver.validRange 1.2.1
+161 silly cache afterAdd bindings@1.2.1
+162 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+163 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+164 http 200 https://registry.npmjs.org/nan
+165 silly get cb [ 200,
+165 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+165 silly get     etag: '"EEJEYBDBWDA07LWTXUI68JUWL"',
+165 silly get     'content-type': 'application/json',
+165 silly get     'cache-control': 'max-age=60',
+165 silly get     'content-length': '100017',
+165 silly get     'accept-ranges': 'bytes',
+165 silly get     date: 'Sat, 10 Oct 2015 10:23:19 GMT',
+165 silly get     via: '1.1 varnish',
+165 silly get     age: '0',
+165 silly get     connection: 'keep-alive',
+165 silly get     'x-served-by': 'cache-sin6920-SIN',
+165 silly get     'x-cache': 'HIT',
+165 silly get     'x-cache-hits': '1',
+165 silly get     'x-timer': 'S1444472597.842053,VS0,VE1288',
+165 silly get     vary: 'Accept' } ]
+166 verbose get saving nan to C:\Users\Yogi\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+167 silly addNameRange number 2 { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: true }
+168 silly addNameRange versions [ 'nan',
+168 silly addNameRange   [ '0.3.0-wip',
+168 silly addNameRange     '0.3.0-wip2',
+168 silly addNameRange     '0.3.0',
+168 silly addNameRange     '0.3.1',
+168 silly addNameRange     '0.3.2',
+168 silly addNameRange     '0.4.0',
+168 silly addNameRange     '0.4.1',
+168 silly addNameRange     '0.4.2',
+168 silly addNameRange     '0.4.3',
+168 silly addNameRange     '0.4.4',
+168 silly addNameRange     '0.5.0',
+168 silly addNameRange     '0.5.1',
+168 silly addNameRange     '0.5.2',
+168 silly addNameRange     '0.6.0',
+168 silly addNameRange     '0.7.0',
+168 silly addNameRange     '0.7.1',
+168 silly addNameRange     '0.8.0',
+168 silly addNameRange     '1.0.0',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '1.1.1',
+168 silly addNameRange     '1.1.2',
+168 silly addNameRange     '1.2.0',
+168 silly addNameRange     '1.3.0',
+168 silly addNameRange     '1.4.0',
+168 silly addNameRange     '1.4.1',
+168 silly addNameRange     '1.5.0',
+168 silly addNameRange     '1.4.2',
+168 silly addNameRange     '1.4.3',
+168 silly addNameRange     '1.5.1',
+168 silly addNameRange     '1.5.2',
+168 silly addNameRange     '1.6.0',
+168 silly addNameRange     '1.5.3',
+168 silly addNameRange     '1.6.1',
+168 silly addNameRange     '1.6.2',
+168 silly addNameRange     '1.7.0',
+168 silly addNameRange     '1.8.0',
+168 silly addNameRange     '1.8.1',
+168 silly addNameRange     '1.8.2',
+168 silly addNameRange     '1.8.3',
+168 silly addNameRange     '1.8.4',
+168 silly addNameRange     '1.9.0',
+168 silly addNameRange     '2.0.0',
+168 silly addNameRange     '2.0.1',
+168 silly addNameRange     '2.0.2',
+168 silly addNameRange     '2.0.3',
+168 silly addNameRange     '2.0.4',
+168 silly addNameRange     '2.0.5',
+168 silly addNameRange     '2.0.6',
+168 silly addNameRange     '2.0.7',
+168 silly addNameRange     '2.0.8',
+168 silly addNameRange     '2.0.9',
+168 silly addNameRange     '2.1.0' ] ]
+169 verbose addNamed nan@2.1.0
+170 silly addNamed semver.valid 2.1.0
+171 silly addNamed semver.validRange 2.1.0
+172 silly mapToRegistry name nan
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/nan
+176 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.1.0.tgz not in flight; adding
+177 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.1.0.tgz',
+177 verbose addRemoteTarball   '020a7ccedc63fdee85f85967d5607849e74abbe8' ]
+178 info retry fetch attempt 1 at 3:53:19 PM
+179 info attempt registry request try #1 at 3:53:19 PM
+180 http fetch GET https://registry.npmjs.org/nan/-/nan-2.1.0.tgz
+181 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.1.0.tgz
+182 silly fetchAndShaCheck shasum 020a7ccedc63fdee85f85967d5607849e74abbe8
+183 verbose addTmpTarball C:\Windows\TEMP\npm-4816-9eb08bcd\registry.npmjs.org\nan\-\nan-2.1.0.tgz not in flight; adding
+184 verbose addTmpTarball already have metadata; skipping unpack for nan@2.1.0
+185 silly cache afterAdd nan@2.1.0
+186 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json not in flight; writing
+187 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json written
+188 silly install resolved [ { name: 'debug',
+188 silly install resolved     version: '2.2.0',
+188 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+188 silly install resolved     description: 'small debugging utility',
+188 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+188 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+188 silly install resolved     contributors: [ [Object] ],
+188 silly install resolved     license: 'MIT',
+188 silly install resolved     dependencies: { ms: '0.7.1' },
+188 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+188 silly install resolved     main: './node.js',
+188 silly install resolved     browser: './browser.js',
+188 silly install resolved     component: { scripts: [Object] },
+188 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+188 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+188 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+188 silly install resolved     _id: 'debug@2.2.0',
+188 silly install resolved     scripts: {},
+188 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+188 silly install resolved     _from: 'debug@>=2.0.0 <3.0.0',
+188 silly install resolved     _npmVersion: '2.7.4',
+188 silly install resolved     _nodeVersion: '0.12.2',
+188 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+188 silly install resolved     maintainers: [ [Object], [Object] ],
+188 silly install resolved     dist:
+188 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+188 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+188 silly install resolved     directories: {},
+188 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+188 silly install resolved     readme: 'ERROR: No README data found!' },
+188 silly install resolved   { name: 'bindings',
+188 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+188 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+188 silly install resolved     version: '1.2.1',
+188 silly install resolved     author:
+188 silly install resolved      { name: 'Nathan Rajlich',
+188 silly install resolved        email: 'nathan@tootallnate.net',
+188 silly install resolved        url: 'http://tootallnate.net' },
+188 silly install resolved     repository:
+188 silly install resolved      { type: 'git',
+188 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+188 silly install resolved     main: './bindings.js',
+188 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+188 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+188 silly install resolved     license: 'MIT',
+188 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+188 silly install resolved     _id: 'bindings@1.2.1',
+188 silly install resolved     scripts: {},
+188 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+188 silly install resolved     _from: 'bindings@>=1.2.0 <1.3.0',
+188 silly install resolved     _npmVersion: '1.4.14',
+188 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+188 silly install resolved     maintainers: [ [Object], [Object] ],
+188 silly install resolved     dist:
+188 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+188 silly install resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+188 silly install resolved     directories: {},
+188 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+188 silly install resolved     readme: 'ERROR: No README data found!' },
+188 silly install resolved   { name: 'nan',
+188 silly install resolved     version: '2.1.0',
+188 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+188 silly install resolved     main: 'include_dirs.js',
+188 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+188 silly install resolved     scripts:
+188 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+188 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+188 silly install resolved        docs: 'doc/.build.sh' },
+188 silly install resolved     contributors:
+188 silly install resolved      [ [Object],
+188 silly install resolved        [Object],
+188 silly install resolved        [Object],
+188 silly install resolved        [Object],
+188 silly install resolved        [Object],
+188 silly install resolved        [Object],
+188 silly install resolved        [Object] ],
+188 silly install resolved     devDependencies:
+188 silly install resolved      { bindings: '~1.2.1',
+188 silly install resolved        commander: '^2.8.1',
+188 silly install resolved        glob: '^5.0.14',
+188 silly install resolved        'node-gyp': '~3.0.1',
+188 silly install resolved        tap: '~0.7.1',
+188 silly install resolved        xtend: '~4.0.0' },
+188 silly install resolved     license: 'MIT',
+188 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+188 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+188 silly install resolved     _id: 'nan@2.1.0',
+188 silly install resolved     _shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+188 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.1.0.tgz',
+188 silly install resolved     _from: 'nan@>=2.0.0 <3.0.0',
+188 silly install resolved     _npmVersion: '3.3.5',
+188 silly install resolved     _nodeVersion: '4.1.2',
+188 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+188 silly install resolved     dist:
+188 silly install resolved      { shasum: '020a7ccedc63fdee85f85967d5607849e74abbe8',
+188 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.1.0.tgz' },
+188 silly install resolved     maintainers: [ [Object], [Object] ],
+188 silly install resolved     directories: {} } ]
+189 info install debug@2.2.0 into C:\node_modules\contactApp\node_modules\time
+190 info install bindings@1.2.1 into C:\node_modules\contactApp\node_modules\time
+191 info install nan@2.1.0 into C:\node_modules\contactApp\node_modules\time
+192 info installOne debug@2.2.0
+193 verbose installOne of debug to C:\node_modules\contactApp\node_modules\time not in flight; installing
+194 info installOne bindings@1.2.1
+195 verbose installOne of bindings to C:\node_modules\contactApp\node_modules\time not in flight; installing
+196 info installOne nan@2.1.0
+197 verbose installOne of nan to C:\node_modules\contactApp\node_modules\time not in flight; installing
+198 verbose lock using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\nan-63d7d0e2e46cb7d1.lock for C:\node_modules\contactApp\node_modules\time\node_modules\nan
+199 verbose lock using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\bindings-7d016202744bf13b.lock for C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+200 silly install write writing nan 2.1.0 to C:\node_modules\contactApp\node_modules\time\node_modules\nan
+201 verbose lock using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\debug-eb7d7247e8d7ad2f.lock for C:\node_modules\contactApp\node_modules\time\node_modules\debug
+202 silly install write writing bindings 1.2.1 to C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+203 silly cache addNamed cb bindings@1.2.1
+204 verbose unbuild node_modules\time\node_modules\bindings
+205 silly install write writing debug 2.2.0 to C:\node_modules\contactApp\node_modules\time\node_modules\debug
+206 silly cache addNamed cb debug@2.2.0
+207 verbose unbuild node_modules\time\node_modules\debug
+208 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\bindings is being purged from base C:\node_modules\contactApp
+209 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+210 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\debug is being purged from base C:\node_modules\contactApp
+211 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\debug
+212 verbose tar unpack C:\Users\Yogi\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+213 verbose tar unpacking to C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+214 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\bindings is being purged
+215 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+216 verbose tar unpack C:\Users\Yogi\AppData\Roaming\npm-cache\debug\2.2.0\package.tgz
+217 verbose tar unpacking to C:\node_modules\contactApp\node_modules\time\node_modules\debug
+218 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\debug is being purged
+219 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\debug
+220 silly gunzTarPerm modes [ '777', '666' ]
+221 silly cache addNamed cb nan@2.1.0
+222 verbose unbuild node_modules\time\node_modules\nan
+223 silly gunzTarPerm modes [ '777', '666' ]
+224 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\nan is being purged from base C:\node_modules\contactApp
+225 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\nan
+226 verbose tar unpack C:\Users\Yogi\AppData\Roaming\npm-cache\nan\2.1.0\package.tgz
+227 verbose tar unpacking to C:\node_modules\contactApp\node_modules\time\node_modules\nan
+228 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\nan is being purged
+229 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\nan
+230 silly gunzTarPerm modes [ '777', '666' ]
+231 silly gunzTarPerm extractEntry package.json
+232 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+233 silly gunzTarPerm extractEntry README.md
+234 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+235 silly gunzTarPerm extractEntry include_dirs.js
+236 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+237 silly gunzTarPerm extractEntry nan_converters.h
+238 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+239 silly gunzTarPerm extractEntry LICENSE.md
+240 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+241 silly gunzTarPerm extractEntry .dntrc
+242 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+243 silly gunzTarPerm extractEntry appveyor.yml
+244 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+245 silly gunzTarPerm extractEntry doc/new.md
+246 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+247 silly gunzTarPerm extractEntry doc/.build.sh
+248 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 511 ]
+249 silly gunzTarPerm extractEntry doc/buffers.md
+250 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+251 silly gunzTarPerm extractEntry doc/callback.md
+252 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+253 silly gunzTarPerm extractEntry doc/converters.md
+254 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+255 silly gunzTarPerm extractEntry doc/errors.md
+256 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+257 silly gunzTarPerm extractEntry doc/maybe_types.md
+258 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+259 silly gunzTarPerm extractEntry doc/methods.md
+260 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+261 silly gunzTarPerm extractEntry doc/asyncworker.md
+262 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+263 silly gunzTarPerm extractEntry doc/node_misc.md
+264 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+265 silly gunzTarPerm extractEntry doc/persistent.md
+266 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+267 silly gunzTarPerm extractEntry doc/scopes.md
+268 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+269 silly gunzTarPerm extractEntry package.json
+270 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+271 silly gunzTarPerm extractEntry .npmignore
+272 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+273 silly gunzTarPerm extractEntry node.js
+274 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+275 silly gunzTarPerm extractEntry doc/script.md
+276 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+277 silly gunzTarPerm extractEntry doc/string_bytes.md
+278 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+279 silly gunzTarPerm extractEntry debug.js
+280 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+281 silly gunzTarPerm extractEntry browser.js
+282 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+283 silly gunzTarPerm extractEntry package.json
+284 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+285 silly gunzTarPerm extractEntry Readme.md
+286 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+287 silly gunzTarPerm extractEntry README.md
+288 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+289 silly gunzTarPerm extractEntry bindings.js
+290 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry doc/v8_internals.md
+292 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+293 silly gunzTarPerm extractEntry doc/v8_misc.md
+294 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+295 silly gunzTarPerm extractEntry bower.json
+296 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+297 silly gunzTarPerm extractEntry .jshintrc
+298 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+299 silly gunzTarPerm extractEntry nan.h
+300 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+301 silly gunzTarPerm extractEntry nan_callbacks.h
+302 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+303 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+304 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+305 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+306 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+307 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+308 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+309 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+310 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+311 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+312 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+313 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+314 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+315 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+316 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+317 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+318 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+319 silly gunzTarPerm extractEntry nan_new.h
+320 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+321 silly gunzTarPerm extractEntry nan_object_wrap.h
+322 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+323 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+324 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+325 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+326 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+327 silly gunzTarPerm extractEntry nan_string_bytes.h
+328 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+329 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+330 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+331 silly gunzTarPerm extractEntry nan_weak.h
+332 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+333 silly gunzTarPerm extractEntry CHANGELOG.md
+334 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+335 silly gunzTarPerm extractEntry tools/package.json
+336 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+337 silly gunzTarPerm extractEntry tools/README.md
+338 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+339 silly gunzTarPerm extractEntry tools/1to2.js
+340 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+341 silly gunzTarPerm extractEntry component.json
+342 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+343 silly gunzTarPerm extractEntry Makefile
+344 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+345 silly gunzTarPerm extractEntry History.md
+346 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+347 info preinstall bindings@1.2.1
+348 silly install resolved []
+349 verbose about to build C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+350 info build C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+351 verbose linkStuff [ false,
+351 verbose linkStuff   false,
+351 verbose linkStuff   false,
+351 verbose linkStuff   'C:\\node_modules\\contactApp\\node_modules\\time\\node_modules' ]
+352 info linkStuff bindings@1.2.1
+353 verbose linkBins bindings@1.2.1
+354 verbose linkMans bindings@1.2.1
+355 verbose rebuildBundles bindings@1.2.1
+356 info install bindings@1.2.1
+357 info postinstall bindings@1.2.1
+358 verbose unlock done using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\bindings-7d016202744bf13b.lock for C:\node_modules\contactApp\node_modules\time\node_modules\bindings
+359 info preinstall debug@2.2.0
+360 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+361 silly cache add args [ 'ms@0.7.1', null ]
+362 verbose cache add spec ms@0.7.1
+363 silly cache add parsed spec { raw: 'ms@0.7.1',
+363 silly cache add   scope: null,
+363 silly cache add   name: 'ms',
+363 silly cache add   rawSpec: '0.7.1',
+363 silly cache add   spec: '0.7.1',
+363 silly cache add   type: 'version' }
+364 verbose addNamed ms@0.7.1
+365 silly addNamed semver.valid 0.7.1
+366 silly addNamed semver.validRange 0.7.1
+367 silly mapToRegistry name ms
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npmjs.org/
+370 silly mapToRegistry uri https://registry.npmjs.org/ms
+371 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+372 verbose request uri https://registry.npmjs.org/ms
+373 verbose request no auth needed
+374 info attempt registry request try #1 at 3:53:20 PM
+375 verbose etag "DUAQ0ETDNK1O3W1OBHV985ZJD"
+376 http request GET https://registry.npmjs.org/ms
+377 info preinstall nan@2.1.0
+378 silly install resolved []
+379 verbose about to build C:\node_modules\contactApp\node_modules\time\node_modules\nan
+380 info build C:\node_modules\contactApp\node_modules\time\node_modules\nan
+381 verbose linkStuff [ false,
+381 verbose linkStuff   false,
+381 verbose linkStuff   false,
+381 verbose linkStuff   'C:\\node_modules\\contactApp\\node_modules\\time\\node_modules' ]
+382 info linkStuff nan@2.1.0
+383 verbose linkBins nan@2.1.0
+384 verbose linkMans nan@2.1.0
+385 verbose rebuildBundles nan@2.1.0
+386 info install nan@2.1.0
+387 info postinstall nan@2.1.0
+388 verbose unlock done using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\nan-63d7d0e2e46cb7d1.lock for C:\node_modules\contactApp\node_modules\time\node_modules\nan
+389 http 200 https://registry.npmjs.org/ms
+390 silly get cb [ 200,
+390 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+390 silly get     etag: '"EUEAIR363BMA5VFZKLGS1UWZA"',
+390 silly get     'content-type': 'application/json',
+390 silly get     'cache-control': 'max-age=60',
+390 silly get     'content-length': '8446',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     date: 'Sat, 10 Oct 2015 10:23:21 GMT',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '32',
+390 silly get     connection: 'keep-alive',
+390 silly get     'x-served-by': 'cache-sin6923-SIN',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '2',
+390 silly get     'x-timer': 'S1444472601.422660,VS0,VE0',
+390 silly get     vary: 'Accept' } ]
+391 verbose get saving ms to C:\Users\Yogi\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+392 silly mapToRegistry name ms
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry uri https://registry.npmjs.org/ms
+396 verbose addRemoteTarball https://registry.npmjs.org/ms/-/ms-0.7.1.tgz not in flight; adding
+397 verbose addRemoteTarball [ 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+397 verbose addRemoteTarball   '9cd13c03adbff25b65effde7ce864ee952017098' ]
+398 info retry fetch attempt 1 at 3:53:21 PM
+399 info attempt registry request try #1 at 3:53:21 PM
+400 http fetch GET https://registry.npmjs.org/ms/-/ms-0.7.1.tgz
+401 http fetch 200 https://registry.npmjs.org/ms/-/ms-0.7.1.tgz
+402 silly fetchAndShaCheck shasum 9cd13c03adbff25b65effde7ce864ee952017098
+403 verbose addTmpTarball C:\Windows\TEMP\npm-4816-9eb08bcd\registry.npmjs.org\ms\-\ms-0.7.1.tgz not in flight; adding
+404 verbose addTmpTarball already have metadata; skipping unpack for ms@0.7.1
+405 silly cache afterAdd ms@0.7.1
+406 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json not in flight; writing
+407 verbose afterAdd C:\Users\Yogi\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json written
+408 silly install resolved [ { name: 'ms',
+408 silly install resolved     version: '0.7.1',
+408 silly install resolved     description: 'Tiny ms conversion utility',
+408 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+408 silly install resolved     main: './index',
+408 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+408 silly install resolved     component: { scripts: [Object] },
+408 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+408 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+408 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+408 silly install resolved     _id: 'ms@0.7.1',
+408 silly install resolved     scripts: {},
+408 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+408 silly install resolved     _from: 'ms@0.7.1',
+408 silly install resolved     _npmVersion: '2.7.5',
+408 silly install resolved     _nodeVersion: '0.12.2',
+408 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+408 silly install resolved     maintainers: [ [Object] ],
+408 silly install resolved     dist:
+408 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+408 silly install resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+408 silly install resolved     directories: {},
+408 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' } ]
+409 info install ms@0.7.1 into C:\node_modules\contactApp\node_modules\time\node_modules\debug
+410 info installOne ms@0.7.1
+411 verbose installOne of ms to C:\node_modules\contactApp\node_modules\time\node_modules\debug not in flight; installing
+412 verbose lock using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\ms-93e8ae8262ab6cc8.lock for C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+413 silly install write writing ms 0.7.1 to C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+414 silly cache addNamed cb ms@0.7.1
+415 verbose unbuild node_modules\time\node_modules\debug\node_modules\ms
+416 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms is being purged from base C:\node_modules\contactApp
+417 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+418 verbose tar unpack C:\Users\Yogi\AppData\Roaming\npm-cache\ms\0.7.1\package.tgz
+419 verbose tar unpacking to C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+420 silly gentlyRm C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms is being purged
+421 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+422 silly gunzTarPerm modes [ '777', '666' ]
+423 silly gunzTarPerm extractEntry package.json
+424 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+425 silly gunzTarPerm extractEntry .npmignore
+426 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+427 silly gunzTarPerm extractEntry README.md
+428 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+429 silly gunzTarPerm extractEntry LICENSE
+430 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+431 silly gunzTarPerm extractEntry index.js
+432 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+433 silly gunzTarPerm extractEntry History.md
+434 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+435 info preinstall ms@0.7.1
+436 silly install resolved []
+437 verbose about to build C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+438 info build C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+439 verbose linkStuff [ false,
+439 verbose linkStuff   false,
+439 verbose linkStuff   false,
+439 verbose linkStuff   'C:\\node_modules\\contactApp\\node_modules\\time\\node_modules\\debug\\node_modules' ]
+440 info linkStuff ms@0.7.1
+441 verbose linkBins ms@0.7.1
+442 verbose linkMans ms@0.7.1
+443 verbose rebuildBundles ms@0.7.1
+444 info install ms@0.7.1
+445 info postinstall ms@0.7.1
+446 verbose unlock done using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\ms-93e8ae8262ab6cc8.lock for C:\node_modules\contactApp\node_modules\time\node_modules\debug\node_modules\ms
+447 verbose about to build C:\node_modules\contactApp\node_modules\time\node_modules\debug
+448 info build C:\node_modules\contactApp\node_modules\time\node_modules\debug
+449 verbose linkStuff [ false,
+449 verbose linkStuff   false,
+449 verbose linkStuff   false,
+449 verbose linkStuff   'C:\\node_modules\\contactApp\\node_modules\\time\\node_modules' ]
+450 info linkStuff debug@2.2.0
+451 verbose linkBins debug@2.2.0
+452 verbose linkMans debug@2.2.0
+453 verbose rebuildBundles debug@2.2.0
+454 verbose rebuildBundles [ 'ms' ]
+455 info install debug@2.2.0
+456 info postinstall debug@2.2.0
+457 verbose unlock done using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\debug-eb7d7247e8d7ad2f.lock for C:\node_modules\contactApp\node_modules\time\node_modules\debug
+458 verbose about to build C:\node_modules\contactApp\node_modules\time
+459 info build C:\node_modules\contactApp\node_modules\time
+460 verbose linkStuff [ false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   'C:\\node_modules\\contactApp\\node_modules' ]
+461 info linkStuff time@0.11.4
+462 verbose linkBins time@0.11.4
+463 verbose linkMans time@0.11.4
+464 verbose rebuildBundles time@0.11.4
+465 verbose rebuildBundles [ 'bindings', 'debug', 'nan' ]
+466 info install time@0.11.4
+467 verbose unsafe-perm in lifecycle true
+468 info time@0.11.4 Failed to exec install script
+469 verbose unlock done using C:\Users\Yogi\AppData\Roaming\npm-cache\_locks\time-87fc73af97f4a0db.lock for C:\node_modules\contactApp\node_modules\time
+470 verbose stack Error: time@0.11.4 install: `node-gyp rebuild`
+470 verbose stack Exit status 1
+470 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+470 verbose stack     at EventEmitter.emit (events.js:110:17)
+470 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+470 verbose stack     at ChildProcess.emit (events.js:110:17)
+470 verbose stack     at maybeClose (child_process.js:1015:16)
+470 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+471 verbose pkgid time@0.11.4
+472 verbose cwd C:\node_modules\contactApp
+473 error Windows_NT 6.1.7600
+474 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "time"
+475 error node v0.12.2
+476 error npm  v2.7.4
+477 error code ELIFECYCLE
+478 error time@0.11.4 install: `node-gyp rebuild`
+478 error Exit status 1
+479 error Failed at the time@0.11.4 install script 'node-gyp rebuild'.
+479 error This is most likely a problem with the time package,
+479 error not with npm itself.
+479 error Tell the author that this fails on your system:
+479 error     node-gyp rebuild
+479 error You can get their info via:
+479 error     npm owner ls time
+479 error There is likely additional logging output above.
+480 verbose exit [ 1, true ]
+481 verbose unbuild node_modules\time
+482 info preuninstall time@0.11.4
+483 info uninstall time@0.11.4
+484 verbose unbuild rmStuff time@0.11.4 from C:\node_modules\contactApp\node_modules
+485 info postuninstall time@0.11.4
+486 silly gentlyRm C:\node_modules\contactApp\node_modules\time is being purged from base C:\node_modules\contactApp
+487 verbose gentlyRm don't care about contents; nuking C:\node_modules\contactApp\node_modules\time
+488 silly vacuum-fs purging C:\node_modules\contactApp\node_modules\time
+489 silly vacuum-fs quitting because other entries in C:\node_modules\contactApp\node_modules

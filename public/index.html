@@ -1,0 +1,45 @@
+<!doctype>
+<html ng-app="app">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<title>
+contact list app
+</title>
+</head>
+<body>
+	<div class="container" ng-controller="mycontroller"> 
+	<h3>contact list app using node js </h3>
+	<table class="table">
+     <thead>
+     	<tr>
+     		<th>Name</th>
+     		<th>Contact address</th>
+     		<th>Phone number</th>
+     	</tr>
+     </thead>	
+     <tbody>
+     	<tr>
+          <td><input class="form-control" ng-model="contact.name"></td>
+          <td><input class="form-control" ng-model="contact.contactaddress"></td>
+          <td><input class="form-control" ng-model="contact.phoneNumber"></td>
+          <td><button class="btn btn-primary" ng-click="addContact()">Add Contact</button></td>
+          <td><button class="btn btn-info" ng-click="update()">Update</button>&nbsp;&nbsp;<button class="btn btn-info" ng-click="deselect()">Clear</button></td>
+        </tr>
+     	<tr ng-repeat="contact in contactList">
+ 			<td>{{contact.name}}</td>
+ 			<td>{{contact.contactaddress}}</td>
+ 			<td>{{contact.phoneNumber}}</td>
+ 			<td><button class="btn btn-danger" ng-click="remove(contact._id)">Remove</button></td>
+            <td><button class="btn btn-warning" ng-click="edit(contact._id)">Edit</button></td>
+     	</tr>
+     </tbody>
+	</table>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="controller/controller.js"></script>
+</body>
+</html>
